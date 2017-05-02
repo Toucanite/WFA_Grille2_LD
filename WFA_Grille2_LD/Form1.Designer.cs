@@ -37,11 +37,13 @@
             this.ClientSize = new System.Drawing.Size(684, 562);
             this.Name = "frm_Main";
             this.Text = "Grille";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.frm_Main_Paint);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
     }
 }
 
